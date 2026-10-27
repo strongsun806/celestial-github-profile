@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200">
+  <rect x="0" y="0" width="340" height="200" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #38bdf8; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #c9d1d9; }
+    .val { font-family: monospace; font-size: 11px; font-weight: 700; fill: #79c0ff; }
+  </style>
+  <text x="20" y="32" class="title">Top Languages by Repo</text>
+  <!-- Donut Chart -->
+  <g transform="translate(90, 115)">
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#238636" stroke-width="22" stroke-dasharray="135 170" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#38bdf8" stroke-width="22" stroke-dasharray="80 220" stroke-dashoffset="-135" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#f1e05a" stroke-width="22" stroke-dasharray="45 255" stroke-dashoffset="-215" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#e34c26" stroke-width="22" stroke-dasharray="40 260" stroke-dashoffset="-260" transform="rotate(-90)"/>
+    <circle cx="0" cy="0" r="28" fill="#0d1117"/>
+  </g>
+  <!-- Legend -->
+  <g transform="translate(180, 65)">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#238636"/>
+    <text x="16" y="9" class="label">TypeScript <tspan class="val">45%</tspan></text>
+    <rect x="0" y="24" width="10" height="10" rx="2" fill="#38bdf8"/>
+    <text x="16" y="33" class="label">Python <tspan class="val">27%</tspan></text>
+    <rect x="0" y="48" width="10" height="10" rx="2" fill="#f1e05a"/>
+    <text x="16" y="57" class="label">JavaScript <tspan class="val">15%</tspan></text>
+    <rect x="0" y="72" width="10" height="10" rx="2" fill="#e34c26"/>
+    <text x="16" y="81" class="label">HTML/CSS <tspan class="val">13%</tspan></text>
+  </g>
+</svg>

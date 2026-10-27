@@ -13,6 +13,7 @@
     <a href="https://github.com/strongsun806/celestial-github-profile/network/members">
       <img src="https://img.shields.io/github/forks/strongsun806/celestial-github-profile?style=for-the-badge&logo=git&color=38bdf8&logoColor=white" alt="GitHub Forks"/>
     </a>
+    <img src="https://komarev.com/ghpvc/?username=strongsun806-celestial&color=38bdf8&style=for-the-badge&label=EXPLORERS" alt="Visitor Count"/>
     <a href="https://github.com/strongsun806/celestial-github-profile/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge" alt="License"/>
     </a>
@@ -23,11 +24,12 @@
   </p>
 
   <p>
-    <a href="#-quick-start-60-seconds"><b>🚀 Quick Start</b></a> •
     <a href="#-한국어-사용-가이드-korean-guide"><b>🇰🇷 한국어 가이드</b></a> •
+    <a href="#-quick-start-60-seconds"><b>🚀 Quick Start</b></a> •
     <a href="#-whats-included"><b>📦 What's Included</b></a> •
     <a href="#-live-components-preview"><b>👀 Live Preview</b></a> •
-    <a href="#-automation-workflows"><b>⚙️ Automation Actions</b></a>
+    <a href="#-tech-badges-copy-paste-library"><b>🎨 뱃지 갤러리</b></a> •
+    <a href="#-star-history"><b>⭐ Star History</b></a>
   </p>
 
 </div>
@@ -52,18 +54,18 @@
 2. 전체 내용을 복사해서 내 레포지토리 최상위의 `README.md`에 붙여넣습니다.
 3. 딱 4개의 플레이스홀더만 내 정보로 수정합니다:
    - `{{YOUR_GITHUB_USERNAME}}` ➔ 내 깃허브 아이디 (예: `strongsun806`)
-   - `{{YOUR_NAME}}` ➔ 내 이름 (예: `홍길동`)
-   - `{{YOUR_ROLE}}` ➔ 개발 분야/직무 (예: `Frontend Engineer`, `AI Engineer`)
+   - `{{YOUR_NAME}}` ➔ 내 이름 (예: `권혜강`)
+   - `{{YOUR_ROLE}}` ➔ 개발 직무 (예: `Frontend Engineer`, `AI Engineer`)
    - `{{YOUR_EMAIL}}` ➔ 연락처 이메일
 
 ### 3️⃣ 3D 잔디 & 요약 카드 자동 생성 권한 켜기 (핵심!)
-깃허브 액션 봇이 매일 밤 3D 잔디와 카드를 자동으로 그려서 커밋할 수 있도록 권한을 줍니다:
+깃허브 액션 봇이 매일 밤 3D 잔디와 요약 카드를 자동으로 갱신할 수 있도록 권한을 설정합니다:
 1. 내 레포지토리 상단 메뉴 **[Settings]** ➔ 좌측 사이드바 **[Actions]** ➔ **[General]** 클릭
 2. 맨 아래쪽 **Workflow permissions** 섹션에서:
    - 🔘 **Read and write permissions** 선택
    - ☑️ **Allow GitHub Actions to create and approve pull requests** 체크
 3. **[Save]** 클릭!
-4. 레포지토리 상단의 **[Actions]** 탭으로 가서 `GitHub-Profile-3D-Contrib`을 클릭하고, 우측의 **[Run workflow]** 버튼을 눌러주면 즉시 첫 3D 잔디가 생성됩니다!
+4. 레포지토리 상단의 **[Actions]** 탭으로 가서 `GitHub-Profile-3D-Contrib`을 클릭하고, 우측의 **[Run workflow]** 버튼을 눌러주면 즉시 첫 3D 잔디가 자동 생성됩니다!
 
 <br/>
 
@@ -111,11 +113,11 @@ Click the green **[Use this template]** button at the top right of this reposito
 | **🌱 3D Contribution Grass** | Night Rainbow 3D Isometric Voxel Contribution blocks | [`profile-3d-contrib/profile-night-rainbow.svg`](./profile-3d-contrib/profile-night-rainbow.svg) |
 | **🪐 Celestial Geometry Emblem** | Rotating orbital rings with 3D octahedron crystal core | [`assets/celestial-geometry.svg`](./assets/celestial-geometry.svg) |
 | **🧪 Visual R&D Lab HUD** | Animated 4D Hypercube, GLSL oscilloscope waveforms & radar | [`assets/visual-lab-hud.svg`](./assets/visual-lab-hud.svg) |
+| **🎵 Cosmic Audio Visualizer** | Retro-futuristic vinyl disc & 16-band dynamic equalizer | [`assets/audio-visualizer.svg`](./assets/audio-visualizer.svg) |
+| **🐍 Cyber Snake Grid** | Autonomous contribution-eating neon animated snake | [`assets/github-contribution-grid-snake.svg`](./assets/github-contribution-grid-snake.svg) |
 | **🎹 3D Tactile Keycaps** | Mechanical keycap styled interactive skillset deck | [`assets/3d-keycaps.svg`](./assets/3d-keycaps.svg) |
 | **🧊 3D Milestone Cubes** | Floating isometric cards for featured projects | [`assets/3d-milestone-cubes.svg`](./assets/3d-milestone-cubes.svg) |
-| **⚙️ Automated 3D Grass Action** | GitHub Actions workflow generating nightly 3D voxels | [`.github/workflows/profile-3d-contrib.yml`](./.github/workflows/profile-3d-contrib.yml) |
 | **📊 Summary Cards Action** | Multi-theme language & commit breakdown cards | [`.github/workflows/profile-summary-cards.yml`](./.github/workflows/profile-summary-cards.yml) |
-| **🐍 Snake Grid Action** | Contribution-eating animated cyber snake | [`.github/workflows/snake-contrib.yml`](./.github/workflows/snake-contrib.yml) |
 
 <br/>
 
@@ -126,8 +128,8 @@ Click the green **[Use this template]** button at the top right of this reposito
 ## 👀 Live Components Preview
 
 ### 1. 🌱 3D 입체 잔디 (3D Isometric Contribution Grass)
-실제 GitHub 잔디 데이터를 기반으로 생성되는 화려한 입체 복셀(Voxel) 블록 그래프입니다!
-`profile-3d-contrib/` 폴더 내에 10가지 테마(`profile-night-rainbow`, `profile-night-view`, `profile-green`, `profile-gitblock` 등)가 제공됩니다.
+실제 GitHub 잔디 데이터를 기반으로 생성되는 화려한 입체 복셀(Voxel) 블록 그래프입니다!  
+`profile-3d-contrib/` 폴더 내에 10가지 테마(`profile-night-rainbow`, `profile-night-view`, `profile-green`, `profile-gitblock` 등)가 내장되어 있습니다.
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="95%" alt="3D Isometric Contribution Grass"/>
@@ -135,7 +137,7 @@ Click the green **[Use this template]** button at the top right of this reposito
 
 <br/>
 
-### 2. 🪐 Celestial Geometry Emblem & Visual Lab HUD
+### 2. 🧪 Visual R&D Lab HUD & 🪐 Celestial Geometry Emblem
 CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니다. 외부 서버 장애나 링크 깨짐이 없습니다.
 
 <div align="center">
@@ -146,7 +148,18 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
 
 <br/>
 
-### 3. 🎹 3D Tactile Skill Deck & Isometric Cubes
+### 3. 🎵 Cosmic Audio Visualizer & 🐍 Cyber Snake Game
+개발 감성을 자극하는 회전 레코드판 이퀄라이저와 잔디를 먹는 네온 스네이크 애니메이션입니다.
+
+<div align="center">
+  <img src="./assets/audio-visualizer.svg" width="95%" alt="Cosmic Audio Visualizer"/>
+  <br/><br/>
+  <img src="./assets/github-contribution-grid-snake.svg" width="95%" alt="Contribution Snake Grid"/>
+</div>
+
+<br/>
+
+### 4. 🎹 3D Tactile Skill Deck & 🧊 Isometric Cubes
 다크 모드에 최적화된 톡톡 튀는 3D 기하학 키캡과 플로팅 프로젝트 카드입니다.
 
 <div align="center">
@@ -161,22 +174,41 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
 
 <br/>
 
-## ⚙️ Automation Actions Setup
+## 🎨 Tech Badges Copy-Paste Library
 
-이 레포지토리에는 깃허브 공식 규격의 워크플로우 3종이 내장되어 있습니다:
+프로필을 꾸밀 때 바로 복사해서 붙여넣을 수 있는 고품질 네온 & 3D 뱃지 모음입니다:
 
-```yaml
-# 1. 3D 입체 잔디 생성 (매일 1회 자동 실행)
-- uses: yoshi389111/github-profile-3d-contrib@latest
-
-# 2. 프로필 요약 카드 생성 (도넛 차트 & 언어 통계)
-- uses: vn7n24fzkq/github-profile-summary-cards@release
-
-# 3. 사이버 스네이크 게임 생성 (잔디 먹는 애니메이션)
-- uses: Platane/snk/svg-only@v3
+### 🌟 3D Plastic Badges (입체 글로시 스타일)
+```html
+<img src="https://img.shields.io/badge/Three.js-000000?style=plastic&logo=threedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=plastic&logo=googlegemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=opencv&logoColor=white"/>
 ```
+<p>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=plastic&logo=threedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=plastic&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=plastic&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=plastic&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=opencv&logoColor=white"/>
+</p>
 
-모든 결과물은 여러분의 레포지토리에 자동 커밋되어 추가 관리 비용 없이 항상 최신 상태를 유지합니다.
+### 🌌 Neon Cosmic Badges (모던 플랫 스타일)
+```html
+<img src="https://img.shields.io/badge/GLSL_Shaders-555555?style=for-the-badge&logo=opengl&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebGPU-990000?style=for-the-badge&logo=webgl&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+```
+<p>
+  <img src="https://img.shields.io/badge/GLSL_Shaders-555555?style=for-the-badge&logo=opengl&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WebGPU-990000?style=for-the-badge&logo=webgl&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+</p>
 
 <br/>
 
@@ -184,27 +216,17 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
 
 <br/>
 
-## 🎨 Customization Tips
+## ⭐ Star History
 
-<details>
-<summary><b>🌱 3D 잔디 테마 바꾸는 법</b></summary>
-
-`README.md`에서 3D 잔디 이미지 경로를 원하는 테마 파일명으로 변경하세요:
-- `./profile-3d-contrib/profile-night-rainbow.svg` (기본 추천: 화려한 네온 무지개)
-- `./profile-3d-contrib/profile-night-view.svg` (모던한 다크 뷰)
-- `./profile-3d-contrib/profile-green.svg` (클래식 그린 잔디)
-- `./profile-3d-contrib/profile-gitblock.svg` (마인크래프트 복셀 블록 스타일)
-</details>
-
-<details>
-<summary><b>✨ 실시간 타이핑 텍스트 바꾸는 법</b></summary>
-
-`README.md`의 `readme-typing-svg` 링크에서 `lines` 파라미터를 수정하세요:
-```markdown
-https://readme-typing-svg.demolab.com?color=38BDF8&lines=한글+문구+입력;두번째+줄+문구
-```
-띄어쓰기는 `+`로 표기하고 세미콜론(`;`)으로 다음 줄을 구분합니다.
-</details>
+<div align="center">
+  <a href="https://star-history.com/#strongsun806/celestial-github-profile&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=strongsun806/celestial-github-profile&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=strongsun806/celestial-github-profile&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=strongsun806/celestial-github-profile&type=Date" width="90%"/>
+    </picture>
+  </a>
+</div>
 
 <br/>
 
