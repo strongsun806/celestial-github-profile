@@ -219,11 +219,11 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
 ## ⭐ Star History
 
 <div align="center">
-  <a href="https://star-history.com/#strongsun806/celestial-github-profile&Date">
+  <a href="https://www.star-history.com/?type=date&repos=strongsun806%2Fcelestial-github-profile">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=strongsun806/celestial-github-profile&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=strongsun806/celestial-github-profile&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=strongsun806/celestial-github-profile&type=Date" width="90%"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=strongsun806/celestial-github-profile&type=date&theme=dark&legend=top-left" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=strongsun806/celestial-github-profile&type=date&legend=top-left" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=strongsun806/celestial-github-profile&type=date&legend=top-left" width="90%"/>
     </picture>
   </a>
 </div>
