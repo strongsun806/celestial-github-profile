@@ -113,8 +113,8 @@ Click the green **[Use this template]** button at the top right of this reposito
 | **🌱 3D Contribution Grass** | Night Rainbow 3D Isometric Voxel Contribution blocks | [`profile-3d-contrib/profile-night-rainbow.svg`](./profile-3d-contrib/profile-night-rainbow.svg) |
 | **🪐 Celestial Geometry Emblem** | Rotating orbital rings with 3D octahedron crystal core | [`assets/celestial-geometry.svg`](./assets/celestial-geometry.svg) |
 | **🧪 Visual R&D Lab HUD** | Animated 4D Hypercube, GLSL oscilloscope waveforms & radar | [`assets/visual-lab-hud.svg`](./assets/visual-lab-hud.svg) |
-| **🎵 Cosmic Audio Visualizer** | Retro-futuristic vinyl disc & 16-band dynamic equalizer | [`assets/audio-visualizer.svg`](./assets/audio-visualizer.svg) |
-| **🐍 Cyber Snake Grid** | Autonomous contribution-eating neon animated snake | [`assets/github-contribution-grid-snake.svg`](./assets/github-contribution-grid-snake.svg) |
+| **🎵 Cosmic Audio Visualizer** | Retro-futuristic vinyl disc & 16-band dynamic equalizer | [`assets/cosmic-audio-player.svg`](./assets/cosmic-audio-player.svg) |
+| **🐍 Cyber Snake Grid** | Autonomous contribution-eating neon animated snake | [`assets/cyber-snake-grid.svg`](./assets/cyber-snake-grid.svg) |
 | **🎹 3D Tactile Keycaps** | Mechanical keycap styled interactive skillset deck | [`assets/3d-keycaps.svg`](./assets/3d-keycaps.svg) |
 | **🧊 3D Milestone Cubes** | Floating isometric cards for featured projects | [`assets/3d-milestone-cubes.svg`](./assets/3d-milestone-cubes.svg) |
 | **📊 Summary Cards Action** | Multi-theme language & commit breakdown cards | [`.github/workflows/profile-summary-cards.yml`](./.github/workflows/profile-summary-cards.yml) |
@@ -152,9 +152,9 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
 개발 감성을 자극하는 회전 레코드판 이퀄라이저와 잔디를 먹는 네온 스네이크 애니메이션입니다.
 
 <div align="center">
-  <img src="./assets/audio-visualizer.svg" width="95%" alt="Cosmic Audio Visualizer"/>
+  <img src="./assets/cosmic-audio-player.svg" width="95%" alt="Cosmic Audio Visualizer"/>
   <br/><br/>
-  <img src="./assets/github-contribution-grid-snake.svg" width="95%" alt="Contribution Snake Grid"/>
+  <img src="./assets/cyber-snake-grid.svg" width="95%" alt="Contribution Snake Grid"/>
 </div>
 
 <br/>
