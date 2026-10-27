@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 155" width="100%" height="100%">
+  <defs>
+    <filter id="keyShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <linearGradient id="boardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .key-label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.3px;
+    }
+    .key-sub {
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 9.5px;
+      font-weight: 700;
+      opacity: 0.8;
+    }
+    .k1 { animation: press 4s ease-in-out 0.0s infinite; }
+    .k2 { animation: press 4s ease-in-out 0.5s infinite; }
+    .k3 { animation: press 4s ease-in-out 1.0s infinite; }
+    .k4 { animation: press 4s ease-in-out 1.5s infinite; }
+    .k5 { animation: press 4s ease-in-out 2.0s infinite; }
+    .k6 { animation: press 4s ease-in-out 2.5s infinite; }
+    .k7 { animation: press 4s ease-in-out 3.0s infinite; }
+    .k8 { animation: press 4s ease-in-out 3.5s infinite; }
+    @keyframes press {
+      0%, 22%, 100% { transform: translateY(0px); }
+      10% { transform: translateY(6px); }
+    }
+  </style>
+
+  <!-- 3D Keyboard Base Plate -->
+  <rect x="10" y="18" width="940" height="126" rx="22" fill="#090d16"/>
+  <rect x="10" y="10" width="940" height="124" rx="22" fill="url(#boardBg)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Key 1: React -->
+  <g transform="translate(28, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#0284c7"/>
+    <g class="k1">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#0ea5e9"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#e0f2fe"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">⚛️</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#0369a1">React</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#0284c7">UI CORE</text>
+    </g>
+  </g>
+
+  <!-- Key 2: Three.js -->
+  <g transform="translate(142, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#0d9488"/>
+    <g class="k2">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#14b8a6"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#ccfbf1"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">🧊</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#0f766e">Three.js</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#0d9488">60FPS 3D</text>
+    </g>
+  </g>
+
+  <!-- Key 3: TypeScript -->
+  <g transform="translate(256, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#2563eb"/>
+    <g class="k3">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#3b82f6"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#dbeafe"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">🔷</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#1d4ed8">TS</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#2563eb">STRICT</text>
+    </g>
+  </g>
+
+  <!-- Key 4: Gemini / DeepMind -->
+  <g transform="translate(370, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#6d28d9"/>
+    <g class="k4">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#8b5cf6"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#ede9fe"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">✨</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#5b21b6">DeepMind</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#6d28d9">HACK '26</text>
+    </g>
+  </g>
+
+  <!-- Key 5: WebGL / R3F -->
+  <g transform="translate(484, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#d97706"/>
+    <g class="k5">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#f59e0b"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#fef3c7"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">🍮</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#b45309">WebGL</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#d97706">SHADERS</text>
+    </g>
+  </g>
+
+  <!-- Key 6: Web Worker -->
+  <g transform="translate(598, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#be185d"/>
+    <g class="k6">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#ec4899"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#fce7f3"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">⚡</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#9d174d">Workers</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#be185d">ASYNC</text>
+    </g>
+  </g>
+
+  <!-- Key 7: OpenCV / AI -->
+  <g transform="translate(712, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#4338ca"/>
+    <g class="k7">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#6366f1"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#e0e7ff"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">👁️</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#3730a3">OpenCV</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#4338ca">VISION AI</text>
+    </g>
+  </g>
+
+  <!-- Key 8: Arduino / Robotics -->
+  <g transform="translate(826, 24)" filter="url(#keyShadow)">
+    <rect x="0" y="12" width="102" height="84" rx="16" fill="#047857"/>
+    <g class="k8">
+      <rect x="0" y="0" width="102" height="82" rx="16" fill="#10b981"/>
+      <rect x="8" y="6" width="86" height="66" rx="12" fill="#d1fae5"/>
+      <text x="51" y="34" text-anchor="middle" font-size="18">🤖</text>
+      <text x="51" y="54" text-anchor="middle" class="key-label" fill="#065f46">Arduino</text>
+      <text x="51" y="66" text-anchor="middle" class="key-sub" fill="#047857">ROBOTICS</text>
+    </g>
+  </g>
+</svg>
