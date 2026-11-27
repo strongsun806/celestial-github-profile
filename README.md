@@ -252,7 +252,7 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
   <br/>
 
   <a href="https://github.com/strongsun806/celestial-github-profile">
-    <img src="https://img.shields.io/badge/%E2%AD%90_Star_This_Repository-fbbf24?style=for-the-badge&logo=github&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Star_This_Repository-fbbf24?style=for-the-badge&logo=github&logoColor=black"/>
   </a>
 
   <br/><br/>
