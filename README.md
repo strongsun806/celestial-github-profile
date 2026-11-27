@@ -157,6 +157,16 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
   <img src="./assets/cyber-snake-grid.svg" width="95%" alt="Contribution Snake Grid"/>
 </div>
 
+실제 GitHub 잔디를 먹는 스네이크는 `Generate-Contribution-Snake` 워크플로가 매일 새로 그려요. 다크/라이트 모드에 맞춰 자동으로 바뀝니다.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg"/>
+    <img src="./assets/github-contribution-grid-snake-dark.svg" width="95%" alt="GitHub Contribution Snake"/>
+  </picture>
+</div>
+
 <br/>
 
 ### 4. 🎹 3D Tactile Skill Deck & 🧊 Isometric Cubes
@@ -242,7 +252,7 @@ CSS 네이티브 애니메이션이 탑재된 순수 벡터 SVG 그래픽입니�
   <br/>
 
   <a href="https://github.com/strongsun806/celestial-github-profile">
-    <img src="https://img.shields.io/badge/⭐_Star_This_Repository-fbbf24?style=for-the-badge&logo=github&logoColor=black"/>
+    <img src="https://img.shields.io/badge/%E2%AD%90_Star_This_Repository-fbbf24?style=for-the-badge&logo=github&logoColor=black"/>
   </a>
 
   <br/><br/>

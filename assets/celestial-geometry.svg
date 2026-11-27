@@ -145,28 +145,28 @@
 
   <!-- Constellation Stardust & Celestial Diamonds -->
   <!-- Top Left Diamond Star -->
-  <g transform="translate(42, 38)" class="star-twinkle">
+  <g transform="translate(42, 38)"><g class="star-twinkle">
     <path d="M 0,-7 Q 0,0 7,0 Q 0,0 0,7 Q 0,0 -7,0 Q 0,0 0,-7 Z" fill="#38bdf8"/>
     <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
-  </g>
+  </g></g>
 
   <!-- Top Right Diamond Star -->
-  <g transform="translate(178, 44)" class="star-twinkle-delay">
+  <g transform="translate(178, 44)"><g class="star-twinkle-delay">
     <path d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z" fill="#fbbf24"/>
     <circle cx="0" cy="0" r="2" fill="#ffffff"/>
-  </g>
+  </g></g>
 
   <!-- Bottom Left Tiny Star -->
-  <g transform="translate(36, 158)" class="star-twinkle-delay">
+  <g transform="translate(36, 158)"><g class="star-twinkle-delay">
     <path d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z" fill="#c084fc"/>
     <circle cx="0" cy="0" r="1.2" fill="#ffffff"/>
-  </g>
+  </g></g>
 
   <!-- Bottom Right Diamond Star -->
-  <g transform="translate(172, 166)" class="star-twinkle">
+  <g transform="translate(172, 166)"><g class="star-twinkle">
     <path d="M 0,-7 Q 0,0 7,0 Q 0,0 0,7 Q 0,0 -7,0 Q 0,0 0,-7 Z" fill="#38bdf8"/>
     <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
-  </g>
+  </g></g>
 
   <!-- Micro Stardust Particles -->
   <circle cx="68" cy="30" r="1.2" fill="#94a3b8" opacity="0.7"/>

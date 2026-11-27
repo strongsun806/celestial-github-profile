@@ -44,11 +44,11 @@
       <!-- Card Surface -->
       <rect x="0" y="0" width="296" height="146" rx="18" fill="#0f172a" stroke="#8b5cf6" stroke-width="2"/>
       <!-- 3D Isometric Cube Icon (Left) -->
-      <g transform="translate(46, 56)" class="cubeBounce">
+      <g transform="translate(46, 56)"><g class="cubeBounce">
         <polygon points="0,-24 22,-12 0,0 -22,-12" fill="#c4b5fd"/>
         <polygon points="-22,-12 0,0 0,26 -22,14" fill="#8b5cf6"/>
         <polygon points="0,0 22,-12 22,14 0,26" fill="#6d28d9"/>
-      </g>
+      </g></g>
       <!-- Text -->
       <rect x="86" y="22" width="136" height="20" rx="10" fill="#2e1065"/>
       <text x="154" y="36" text-anchor="middle" class="c-tag" fill="#c4b5fd">✨ GLOBAL HACKATHON</text>
@@ -67,11 +67,11 @@
       <!-- Card Surface -->
       <rect x="0" y="0" width="296" height="146" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
       <!-- 3D Isometric Cube Icon (Left) -->
-      <g transform="translate(46, 56)" class="cubeBounce">
+      <g transform="translate(46, 56)"><g class="cubeBounce">
         <polygon points="0,-24 22,-12 0,0 -22,-12" fill="#a5f3fc"/>
         <polygon points="-22,-12 0,0 0,26 -22,14" fill="#22d3ee"/>
         <polygon points="0,0 22,-12 22,14 0,26" fill="#0284c7"/>
-      </g>
+      </g></g>
       <!-- Text -->
       <rect x="86" y="22" width="132" height="20" rx="10" fill="#083344"/>
       <text x="152" y="36" text-anchor="middle" class="c-tag" fill="#67e8f9">🧊 SPATIAL GRAPHICS</text>
@@ -90,11 +90,11 @@
       <!-- Card Surface -->
       <rect x="0" y="0" width="296" height="146" rx="18" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
       <!-- 3D Isometric Cube Icon (Left) -->
-      <g transform="translate(46, 56)" class="cubeBounce">
+      <g transform="translate(46, 56)"><g class="cubeBounce">
         <polygon points="0,-24 22,-12 0,0 -22,-12" fill="#fde68a"/>
         <polygon points="-22,-12 0,0 0,26 -22,14" fill="#fbbf24"/>
         <polygon points="0,0 22,-12 22,14 0,26" fill="#d97706"/>
-      </g>
+      </g></g>
       <!-- Text -->
       <rect x="86" y="22" width="142" height="20" rx="10" fill="#451a03"/>
       <text x="157" y="36" text-anchor="middle" class="c-tag" fill="#fde68a">🍮 ARCH &amp; MENTORSHIP</text>
